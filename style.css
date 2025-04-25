@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho do Juliano e Luan</title>
+  <style>
+    :root {
+      --primary-color: #4a90e2;
+      --secondary-color: #f5f5f5;
+      --text-color: #333;
+      --header-bg: #fff;
+      --footer-bg: #4a90e2;
+      --footer-text: #fff;
+    }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--header-bg);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  flex-wrap: wrap;
+}
+
+nav {
+  margin: 0.5rem 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+  color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav-externa">
+      <ul>
+        <li><a href="#matematica">Matemática</a></li>
+        <li><a href="#fisica">Física</a></li>
+        <li><a href="#quimica">Química</a></li>
+      </ul>
+    </nav>
+    <nav class="nav-interna">
+      <ul>
+        <li><a href="#provas">Provas</a></li>
+        <li><a href="#atividades">Atividades</a></li>
+        <li><a href="#relatorios">Relatórios</a></li>
+      </ul>
+    </nav>
+  </header>  <main>
+    <section id="matematica">
+      <h2>Matemática</h2>
+      <div class="conteudo">
+        <article id="provas">
+          <h3>Provas</h3>
+          <p>Resumo das provas da disciplina de Matemática.</p>
+        </article>
+        <article id="atividades">
+          <h3>Atividades</h3>
+          <p>Lista de atividades feitas em sala.</p>
+        </article>
+        <article id="relatorios">
+          <h3>Relatórios</h3>
+          <p>Relatórios de desempenho e conteúdo.</p>
+        </article>
+      </div>
+    </section><section id="fisica">
+  <h2>Física</h2>
+  <div class="conteudo">
+    <article>
+      <h3>Provas</h3>
+      <p>Resumo das provas da disciplina de Física.</p>
+    </article>
+    <article>
+      <h3>Atividades</h3>
+      <p>Lista de atividades feitas em sala.</p>
+    </article>
+    <article>
+      <h3>Relatórios</h3>
+      <p>Relatórios de desempenho e conteúdo.</p>
+    </article>
+  </div>
+</section>
+
+<section id="quimica">
+  <h2>Química</h2>
+  <div class="conteudo">
+    <article>
+      <h3>Provas</h3>
+      <p>Resumo das provas da disciplina de Química.</p>
+    </article>
+    <article>
+      <h3>Atividades</h3>
+      <p>Lista de atividades feitas em sala.</p>
+    </article>
+    <article>
+      <h3>Relatórios</h3>
+      <p>Relatórios de desempenho e conteúdo.</p>
+    </article>
+  </div>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 Trabalho Escolar feito por Juliano e Luan. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
